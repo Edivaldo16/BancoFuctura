@@ -1,7 +1,15 @@
 # BancoFuctura
 Criação da Classe Banco (Atividade curso Java - Módulo 01 (Versão Final)
 
-## Progresso
+## Atividade Proposta
+
+* Projeto terá uma Classe para `Conta Corrente` e uma Classe para `Conta Poupança` que herdará da Classe abstrata `Contas`;
+* A classe `Contas` deverá ter os atributos: número da conta, nome do titular, saldo disponível e ter métodos para exibir os dados da conta cadastrada,
+fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos atributos private;
+* 
+
+## Observações
+
 O projeto continua incompleto, porém com bastante progresso. Foi implementada a `Classe Conta` com os Métodos Personalizados(`toString`, `depositar`, `sacar` e `transferir`) e com seus respectivos Métodos Especiais (`Constructor`, `Getters` e `Setters`). A `Classe Main AgenciaBancaria` foi criada com o intuito de servir como interface para acessar os atributos da `Classe Conta`. Além disso foi criada a `Classe Utils` com a funcionalidade de tratar os valores `Double` e transformá-los em `String` seguindo o padrão `R$ #,##0.00`. O conceito de `ArrayList` foi usado, o que tornou possível o cadastro e armazenamento de outras contas. 
 
 ## Pendências
@@ -15,7 +23,7 @@ depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos
 
 ## Implementações Futuras
 
-* Implementar a Classe Banco com [Java Forms](https://www.youtube.com/watch?v=UtxTG1_AiXk&list=PLJIP7GdByOyuBKB--fIO2DoQaPVXm9lCw)
+* Implementar a Classe Banco com [Java Forms](https://www.youtube.com/watch?v=UtxTG1_AiXk&list=PLJIP7GdByOyuBKB--fIO2DoQaPVXm9lCw).
 
 ## Projeto Atual
 
