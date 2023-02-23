@@ -17,14 +17,10 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * A primeira ação que deverá ser feito é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
 * A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos `aplicar()` e `resgatar()` respectivamente
 
-## Pendências
+## Projeto
 
-* Conta Poupança além dos métodos herdados terá o método `resgatar`
-que transfere valores da Poupança para ContaCorrente;
-
-* A Poupança não aceitará saques e depósitos diretamente, para
-depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos
-`aplicar` e `resgatar` respectivamente.
+* Foi criada uma Classe Abstrata `Contas` com todos os atributos private. As Classes `ContaCorrente` e `ContaPoupanca` herdam os atributos e os métodos da Classe Contas
+* 
 
 ## Implementações Futuras
 
