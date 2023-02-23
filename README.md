@@ -15,7 +15,7 @@ depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos
 
 ## Implementações Futuras
 
-* Implementar a Classe Banco com [JoptionPane](https://www.youtube.com/watch?v=6wo9vvlIhRo&ab_channel=Zécodes)
+* Implementar a Classe Banco com [Java Forms](https://www.youtube.com/watch?v=UtxTG1_AiXk&list=PLJIP7GdByOyuBKB--fIO2DoQaPVXm9lCw)
 
 ## Projeto Atual
 
