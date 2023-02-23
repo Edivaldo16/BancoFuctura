@@ -21,12 +21,12 @@ depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos
 
 * [Classe Pessoa](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Pessoa.java)
 * [Classe Utils](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Utils.java)
-* [Classe GeradorConta](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Utils.java)
-* [Classe GeradorSenha](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Utils.java)
-* [Classe Contas](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Conta.java)
-* [Classe ContaCorrente](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Conta.java)
-* [Classe ContaPoupanca](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/Conta.java)
-* [Classe Main Banco](https://github.com/Edivaldo16/Banco01/blob/main/AgenciaBanco/AgenciaBancaria.java)
+* [Classe GeradorConta](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/GeradorConta.java)
+* [Classe GeradorSenha](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/GeradorSenha.java)
+* [Classe Contas](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Contas.java)
+* [Classe ContaCorrente](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/ContaCorrente.java)
+* [Classe ContaPoupanca](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/ContaPoupanca.java)
+* [Classe Main Banco](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Banco.java)
 
 ## Agradecimentos
 
