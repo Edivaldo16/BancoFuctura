@@ -3,10 +3,11 @@ Criação da Classe Banco (Atividade curso Java - Módulo 01 (Versão Final)
 
 ## Atividade Proposta
 
-* Projeto terá uma Classe para `Conta Corrente` e uma Classe para `Conta Poupança` que herdará da Classe abstrata `Contas`;
+* Projeto terá uma Classe para `Conta Corrente` e uma Classe para `Conta Poupança` que herdará da Classe abstrata `Contas`
 * A classe `Contas` deverá ter os atributos: número da conta, nome do titular, saldo disponível e ter métodos para exibir os dados da conta cadastrada,
 fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos atributos private;
-* 
+* A Classe `Conta Corrente` além dos métodos herdados terá métodos para fazer saques e para aplicação de valores na Classe `Conta Poupança`
+* A Classe `Conta Poupança` além dos métodos herdados terá o método resgatar que transfere valores da Poupança para a Classe `Conta Corrente`
 
 ## Observações
 
