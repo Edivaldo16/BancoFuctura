@@ -7,7 +7,7 @@ Criação da Classe Banco (Atividade curso Java - Módulo 01 (Versão Final)
 * A classe `Contas` deverá ter os atributos: número da conta, nome do titular, saldo disponível e ter métodos para exibir os dados da conta cadastrada,
 fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos atributos private
 * A Classe `Conta Corrente` além dos métodos herdados terá métodos para fazer saques e para aplicação de valores na Classe `Conta Poupança`
-* A Classe `Conta Poupança` além dos métodos herdados terá o método resgatar que transfere valores da Poupança para a Classe `Conta Corrente`
+* A Classe `Conta Poupança` além dos métodos herdados terá o método `resgatar()` que transfere valores da Poupança para a Classe `Conta Corrente`
 * Deverá ter confirmação para cada operação realizada. Por exemplo: ao realizar um saque informar que o saque foi feito
 * O projeto precisa de uma classe que possua o método main. Nesta Classe será feita a criação de objetos, as chamadas aos métodos, atribuição de valores aos atributos
 
@@ -15,7 +15,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 * O atributo saldo não deverá ser alterado diretamente, deverá ser criado um método para manipular o atributo saldo
 * A primeira ação que deverá ser feito é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
-* A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos aplicar() e resgatar() respectivamente
+* A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos `aplicar()` e `resgatar()` respectivamente
 
 ## Pendências
 
