@@ -52,11 +52,12 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 ![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/1.menuInicial.png)
 
-## Dificuldades
+## Dificuldades e Aprendizados
 
 * POO é bem complexo, mas com bastante pesquisa, insistência e tempo, as coisas começaram a clarear mais
 * Trabalhar com variáveis de outros tipos como `Pessoa`, `ContaCorrente` e `ContaPoupanca`. Aprende muita coisa manipulando objetos dos mais diversos tipos
 * Desde 2012, quando tive meu primeiro contato com programação, linguagem C/C++, no curso técnico de automação industrial, sempre que quis comparar dois objetos do mesmo tipo usei o `==`. Após 3 horas quebrando a cabeça sem entender porque que duas variáveis iguais do tipo `String` estavam dando diferente com o operador `==` aprendi a funcionalidade e a importância do operador `.equals()`. Quer comparar duas ou mais variáveis iguais do tipo `String` use `.equals()`. Quer comparar variáveis do tipo `String` e `null` use o `==` 
+* Ao usar a estrutura do JOption me deparei com o erro `NumberFormatException`. Depois de muitas pesquisas aprendi que, quando eu apertava o botão cancelar, a variável do tipo `String` recebia um valor `null` e, a estrutura `Integer.parseInt()`, não consegue converter valores vazios. A partir desse erro matei dois coelhos com uma única cajada: tratei o botão Ok quando ele mandava uma string `""` com if e else e tratei o botão cancel que sempre manda `null` com try e catch
 
 ## Implementações Futuras
 
