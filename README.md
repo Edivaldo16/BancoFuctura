@@ -17,11 +17,12 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * A primeira ação que deverá ser feita é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
 * A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos `aplicar()` e `resgatar()` respectivamente
 
-## Introdução
+## Introdução e Observações
 
 * O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma conta corrente, uma conta poupança e uma senha aleatória para o cliente
 * O projeto possui 3 menus principais representado pelos métodos `menuInicial()`, `menuCliente(b, c)` e  `menuGerente(b, c)`. Para poder acessar os menus (métodos) `menuCliente(b, c)` e  `menuGerente(b, c)` será necessário fornecer os dados de login de forma correta. O `menuCliente(b, c)` possui dois submenus representados pelos métodos `acessarContaCorrente()` e `acessarContaPoupanca()`
 * Através do menu (método) `menuGerente`, o gerente consegue criar cadastro, modificar cadastro além de ter acesso a todos os dados de todas as contas cadastradas
+* Tentei usar tudo que aprendi no curso Java 01 (estruturas de repetição, condicionais, tratamento de exceções e ArrayList)
 
 ### Projeto
 
@@ -45,6 +46,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 ## Dificuldades
 
+* POO é bem complexo, mas com bastante pesquisa, insistência e tempo, as coisas começaram a clarear mais
 * Trabalhar com variáveis de outros tipos como `Pessoa`, `ContaCorrente` e `ContaPoupanca`. Aprende muita coisa manipulando objetos dos mais diversos tipos
 * Desde 2012, quando tive meu primeiro contato com programação, linguagem C/C++, no curso técnico de automação industrial, sempre que quis comparar dois objetos do mesmo tipo usei o `==`. Após 3 horas quebrando a cabeça sem entender porque que duas variáveis iguais do tipo `String` estavam dando diferente com o operador `==` aprendi a funcionalidade e a importância do operador `.equals()`. Quer comparar duas ou mais variáveis iguais do tipo `String` use `.equals()`. Quer comparar variáveis do tipo `String` e `null` use o `==` 
 
