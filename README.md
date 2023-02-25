@@ -48,9 +48,25 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 ### Menus
 
-#### Menu Inicial
+#### 1. Menu Inicial
 
 ![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/1.menuInicial.png)
+
+##### 1.1 Menu Cliente
+
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/2.menuCliente.png)
+
+###### 1.1.1 Menu Cliente Conta Corrente
+
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/3.AcessarContaCorrente.png)
+
+###### 1.1.2 Menu Cliente Conta Poupança
+
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/4.AcessarContaPoupanca.png)
+
+##### 1.2 Menu Gerente
+
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/5.menuGerente.png)
 
 ## Dificuldades e Aprendizados
 
