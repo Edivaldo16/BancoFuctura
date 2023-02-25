@@ -33,7 +33,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * Para se gerar uma conta corrente foi implementado um Construtor na Classe `ContaCorrente`. Para gerar números de conta e senha aleatórios foram usados as Classes `GeradorConta` e `GeradorSenha`. O construtor recebe como parâmetro uma variável do tipo `Pessoa`
 * Para se gerar uma conta poupanca foi implementado um Construtor na Classe `ContaPoupanca`. O constrututor foi implementado para receber como parâmetro do tipo `ContaCorrente`. A classe foi implementada de tal forma que todos os atributos do tipo `Pessoa` e senha fossem iguais. As únicas diferenças entre as Classes `ContaCorrente` e `ContaPoupanca` são os métodos Getters e Setters ID, Saldo, Senha e Pessoa 
 * A Classe `Utlis` foi criada para tratar a variável double `salario`, de tal forma que ela aparecesse no formato `R$ 0.00`
-* Fiz tratamento na variável do tipo `String` cpf para que ela aparecesse no formato `000.000.000 - 00`
+* Fiz tratamento na variável do tipo `String` cpf para que ela aparecesse no formato `000.000.000 - 00 ` e para que novos clientes não cadastrassem o mesmo cpf em outras contas
 
 ### Banco Fuctura
 
