@@ -28,7 +28,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 ### Projeto
 
 * Foi criada uma Classe Abstrata `Contas` com todos os atributos private. As Classes `ContaCorrente` e `ContaPoupanca` herdam os atributos e os métodos da Classe Abstrata `Contas`. Para tornar possível a manipulação dos atributos da classe mãe pelas classes filhas foram implementados Setters e Getters do tipo public
-* O método `toString` foi criado para tratar as variavéis do tipo ´String´ usadas na criação das Classes `Contas`, `ContaCorrente` e `ContaPoupanca`
+* O método `toString` foi criado para tratar as variavéis do tipo `String` usadas na criação das Classes `Contas`, `ContaCorrente` e `ContaPoupanca`
 * A Classe `Pessoa` foi criada com intuito de armazenar os dados pessoais do cliente
 * Para se gerar uma conta corrente foi implementado um Construtor na Classe `ContaCorrente`. Para gerar números de conta e senha aleatórios foram usados as Classes `GeradorConta` e `GeradorSenha`. O construtor recebe como parâmetro uma variável do tipo `Pessoa`
 * Para se gerar uma conta poupanca foi implementado um Construtor na Classe `ContaPoupanca`. O constrututor foi implementado para receber como parâmetro do tipo `ContaCorrente`. A classe foi implementada de tal forma que todos os atributos do tipo `Pessoa` e senha fossem iguais. As únicas diferenças entre as Classes `ContaCorrente` e `ContaPoupanca` são os métodos Getters e Setters ID, Saldo, Senha e Pessoa 
