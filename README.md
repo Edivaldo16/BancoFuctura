@@ -3,7 +3,7 @@ Criação da Classe Banco (Atividade curso Java - Módulo 01 (Versão Final)
 
 ## Atividade Proposta
 
-* Projeto terá uma Classe para `Conta Corrente` e uma Classe para `Conta Poupança` que herdará da Classe abstrata `Contas`
+* Projeto terá uma Classe para `Conta Corrente` e uma Classe para `Conta Poupança` que herdará da Classe Abstrata `Contas`
 * A classe `Contas` deverá ter os atributos: número da conta, nome do titular, saldo disponível e ter métodos para exibir os dados da conta cadastrada,
 fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos atributos private
 * A Classe `Conta Corrente` além dos métodos herdados terá métodos para fazer saques e para aplicação de valores na Classe `Conta Poupança`
@@ -14,12 +14,13 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 ### Observações
 
 * O atributo saldo não deverá ser alterado diretamente, deverá ser criado um método para manipular o atributo saldo
-* A primeira ação que deverá ser feito é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
+* A primeira ação que deverá ser feita é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
 * A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos `aplicar()` e `resgatar()` respectivamente
 
 ## Projeto
 
-* Foi criada uma Classe Abstrata `Contas` com todos os atributos private. As Classes `ContaCorrente` e `ContaPoupanca` herdam os atributos e os métodos da Classe Contas
+* Foi criada uma Classe Abstrata `Contas` com todos os atributos private. As Classes `ContaCorrente` e `ContaPoupanca` herdam os atributos e os métodos da Classe Abstrata `Contas`
+* As Classes `GeradorConta` e `GeradorSenha` geram Contas e Senhas aleatórias. O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma Conta Corrente, uma Conta Poupança e uma senha aleatória para o cliente
 * 
 
 ## Implementações Futuras
