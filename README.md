@@ -46,6 +46,12 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * [Classe ContaPoupanca](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/ContaPoupanca.java)
 * [Classe Main Banco](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Banco.java)
 
+### Menus
+
+#### Menu Inicial
+
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/1.menuInicial.png)
+
 ## Dificuldades
 
 * POO é bem complexo, mas com bastante pesquisa, insistência e tempo, as coisas começaram a clarear mais
