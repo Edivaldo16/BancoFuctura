@@ -17,7 +17,13 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * A primeira ação que deverá ser feita é cadastrar a conta. Tem que ser solicitado ao usuário digitar o seu nome, um número de conta (esse número é aleatório, somente para a conta ter um número quando for mostrar os dados da conta). Ainda no cadastro deverá ser perguntado se será feito um depósito inicial. A ContaCorrente poderá ser criada com saldo R$ 0.00 (zero) ou com o valor de depósito inicial 
 * A Poupança não aceitará saques e depósitos diretamente, para depositar ou sacar dinheiro da ContaPoupança será utilizado os métodos `aplicar()` e `resgatar()` respectivamente
 
-## Projeto
+## Introdução
+
+* O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma conta corrente, uma conta poupança e uma senha aleatória para o cliente
+* O projeto possui 3 menus principais representado pelos métodos `menuInicial()`, `menuCliente(b, c)` e  `menuGerente(b, c)`. Para poder acessar os menus (métodos) `menuCliente(b, c)` e  `menuGerente(b, c)` será necessário fornecer os dados de login de forma correta. O `menuCliente(b, c)` possui dois submenus representados pelos métodos `acessarContaCorrente()` e `acessarContaPoupanca()`
+* Através do menu (método) `menuGerente`, o gerente consegue criar cadastro, modificar cadastro além de ter acesso a todos os dados de todas as contas cadastradas
+
+### Projeto
 
 * Foi criada uma Classe Abstrata `Contas` com todos os atributos private. As Classes `ContaCorrente` e `ContaPoupanca` herdam os atributos e os métodos da Classe Abstrata `Contas`
 * O método `toString` foi criado para tratar as variavéis do tipo ´String´ usadas na criação das Classes `Contas`, `ContaCorrente` e `ContaPoupanca`
@@ -25,10 +31,6 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * Para se gerar uma conta corrente foi implementado um Construtor na Classe `ContaCorrente`. Para gerar números de conta e senha aleatórios foram usados as Classes `GeradorConta` e `GeradorSenha`. O construtor recebe como parâmetro uma variável do tipo `Pessoa`
 * Para se gerar uma conta poupanca foi implementado um Construtor na Classe `ContaPoupanca`. O constrututor foi implementado para receber como parâmetro do tipo `ContaCorrente`. A classe foi implementada de tal forma que todos os atributos do tipo `Pessoa` e senha fossem iguais. As únicas diferenças entre as Classes `ContaCorrente` e `ContaPoupanca` são os métodos Getters e Setters ID, Saldo, Senha e Pessoa 
 * A Classe `Utlis` foi criada para tratar a variável double `salario`, de tal forma que ela aparecesse no formato `R$ 0.00`
-
-### Observações
-* O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma conta corrente, uma conta poupança e uma senha aleatória para o cliente
-* O projeto possui 3 menus principais representado pelos métodos `menuInicial()`, `menuCliente(b, c)` e  `menuGerente(b, c)`. Para poder acessar os menus (métodos) `menuCliente(b, c)` e  `menuGerente(b, c)` será necessário fornecer os dados de login de forma correta. O `menuCliente(b, c)` possui dois submenus representado pelos métodos `acessarContaCorrente()` e `acessarContaPoupanca()`.
 
 ### Banco Fuctura
 
@@ -40,6 +42,11 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * [Classe ContaCorrente](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/ContaCorrente.java)
 * [Classe ContaPoupanca](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/ContaPoupanca.java)
 * [Classe Main Banco](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Banco.java)
+
+## Dificuldades
+
+* Trabalhar com variáveis de outros tipos como `Pessoa`, `ContaCorrente` e `ContaPoupanca`. Aprende muita coisa manipulando objetos dos mais diversos tipos
+* Desde 2012, quando tive meu primeiro contato com programação, linguagem C/C++, no curso técnico de automação industrial, sempre que quis comparar dois objetos do mesmo tipo usei o `==`. Após 3 horas quebrando a cabeça sem entender porque que duas variáveis iguais do tipo `String` estavam dando diferente com o operador `==` aprendi a funcionalidade e a importância do operador `.equals()`. Quer comparar duas ou mais variáveis iguais do tipo `String` use `.equals()`. Quer comparar variáveis do tipo `String` e `null` use o `==` 
 
 ## Implementações Futuras
 
