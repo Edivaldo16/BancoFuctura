@@ -21,7 +21,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 * O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma conta corrente, uma conta poupança e uma senha aleatória para o cliente
 * O projeto possui 3 menus principais representado pelos métodos `menuInicial()`, `menuCliente(b, c)` e  `menuGerente(b, c)`. Para poder acessar os menus (métodos) `menuCliente(b, c)` e  `menuGerente(b, c)` será necessário fornecer os dados de login de forma correta. O `menuCliente(b, c)` possui dois submenus representados pelos métodos `acessarContaCorrente()` e `acessarContaPoupanca()`
-* Através do menu (método) `menuGerente`, o gerente consegue criar cadastro, modificar cadastro além de ter acesso a todos os dados de todas as contas cadastradas
+* Através do menu (método) `menuGerente(b, c)`, o gerente consegue criar cadastro, modificar cadastro além de ter acesso a todos os dados de todas as contas cadastradas
 * Tentei usar tudo que aprendi no curso Java 01 (estruturas de repetição, condicionais, tratamento de exceções e ArrayList)
 
 ### Projeto
