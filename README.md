@@ -22,6 +22,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * O projeto foi arquitetado de tal forma que, no ato do cadastro, o cliente apenas precisasse digitar suas informações pessoais como nome, cpf e e-mail que o próprio sistema se encarregaria de gerar uma conta corrente, uma conta poupança e uma senha aleatória para o cliente
 * O projeto possui 3 menus principais representado pelos métodos `menuInicial()`, `menuCliente(b, c)` e  `menuGerente(b, c)`. Para poder acessar os menus (métodos) `menuCliente(b, c)` e  `menuGerente(b, c)` será necessário fornecer os dados de login de forma correta. O `menuCliente(b, c)` possui dois submenus representados pelos métodos `acessarContaCorrente()` e `acessarContaPoupanca()`
 * Através do menu (método) `menuGerente(b, c)`, o gerente consegue criar cadastro, modificar cadastro além de ter acesso a todos os dados de todas as contas cadastradas
+* Nome do cliente não pode ter caracteres especiais e não pode ser composto por espaços. Basicamente o cliente só consegue inserir seu primeiro nome. Isso acontece devido a um tratamento que dei na variável do tipo `String` `pessoa.getNome().matches("[A-Z]*")`. Resolvi tratar a variável dessa forma para evitar que o cliente ou o gerente, no ato do cadastro, inserisse algum número no meio do cadastro. Caso isso aconteca ele dará um erro: **Nome deve ser composto por letras!"**
 * Tentei usar tudo que aprendi no curso Java 01 (estruturas de repetição, condicionais, tratamento de exceções e ArrayList)
 
 ### Projeto
@@ -32,6 +33,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 * Para se gerar uma conta corrente foi implementado um Construtor na Classe `ContaCorrente`. Para gerar números de conta e senha aleatórios foram usados as Classes `GeradorConta` e `GeradorSenha`. O construtor recebe como parâmetro uma variável do tipo `Pessoa`
 * Para se gerar uma conta poupanca foi implementado um Construtor na Classe `ContaPoupanca`. O constrututor foi implementado para receber como parâmetro do tipo `ContaCorrente`. A classe foi implementada de tal forma que todos os atributos do tipo `Pessoa` e senha fossem iguais. As únicas diferenças entre as Classes `ContaCorrente` e `ContaPoupanca` são os métodos Getters e Setters ID, Saldo, Senha e Pessoa 
 * A Classe `Utlis` foi criada para tratar a variável double `salario`, de tal forma que ela aparecesse no formato `R$ 0.00`
+* Fiz tratamento na variável do tipo `String` cpf para que ela aparecesse no formato `000.000.000 - 00`
 
 ### Banco Fuctura
 
