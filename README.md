@@ -62,7 +62,7 @@ fazer depósito, exibir o saldo de cada conta e métodos getters e setters dos a
 
 ###### 1.1.2 Menu Cliente Conta Poupança
 
-![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/4.AcessarContaPoupanca.png)
+![Menus](https://github.com/Edivaldo16/BancoFuctura/blob/main/Projeto/Imagens/AcessarContaPoupanca.png)
 
 ##### 1.2 Menu Gerente
 
